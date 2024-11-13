@@ -1,4 +1,4 @@
-# caddy-dns-acmedns
+# caddy-dns-cloudflare
 Caddy Web Server with Cloudflare Provider, based on [Caddy Web Server with ACME-DNS Provider](https://github.com/timelordx/caddy-dns-acmedns)
 
 [![Docker Build and Publish](https://github.com/ryangwsimmons/caddy-dns-cloudflare/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/ryangwsimmons/caddy-dns-cloudflare/actions/workflows/docker-publish.yml)
