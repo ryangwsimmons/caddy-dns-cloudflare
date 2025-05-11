@@ -63,3 +63,11 @@ jobs:
 
       - name: Image digest
         run: echo ${{ steps.build-and-push.outputs.digest }}
+
+  workflow-keepalive:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: liskin/gh-workflow-keepalive@v1
